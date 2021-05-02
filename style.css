@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.sivu {
+  height: 100vh;
+}
+
+.sivu, #footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigointi {
+  background-color: rgba(0,0,0,1);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+#navigointi a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+#navigointi a:hover {
+
+color: rosybrown;
+}
+
+
+#navigointi ul {
+  display: flex;
+
+}
+
+#navigointi ul li {
+  display: block;
+}
+
+#etusivu {
+  background-color: #2A3841;
+}
+
+#galleria {
+  background-color: #51616B; 
+}
+
+#tapahtumat {
+background-color: #1D323F;
+}
+
+#yhteystiedot {
+  background-color: #0f2431;
+}
+
+#footer {
+  background-color: #51616B;
+  height: 5em;
+}
