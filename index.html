@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Jylhä Racing</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fullpage.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div id="sivusto">
+    <div id="etusivu" class="section section 1">
+      <div class="container">
+        <h1>Jylhä Racing</h1>
+        <p> Tervetuloa Jylhä Racing tiimin kotisivuille!<br>
+          Sivustolle päivitetään kuvia ja ajankohtaisia tietoja kisoista<br>
+          <strong>Toivottavasti viihdyt </strong>
+        </p>
+      </div>
+    </div>
+
+    <div id="galleria" class="section section 2">
+      <div class="slide" style="background-image: url(images/1.png);">Tässä tulee olemaan kuvia</div>
+      <div class="slide" style="background-image: url(images/2.png);">Tässä tulee olemaan kuvia</div>
+      <div class="slide" style="background-image: url(images/3.png);">Tässä tulee olemaan kuvia</div>
+    </div>
+
+    <div id="tapahtumat" class="section section 3">
+      <div class="container">
+        <h1>Tapahtumat</h1>
+        <p>Tähän toteutetaan tapahtumakalenteri johon voi merkitä kisoja, jne </p>
+      </div>
+    </div>
+
+    <div id="yhteystiedot" class="section section 4">
+      <div class="container">
+        <div id="somet">
+          <ul>
+            <h1>Yhteystiedot</h1>
+            <p><strong> Voit ottaa meihin yhteyttä sähköpostitse tai soittamalla </strong></p>
+            <a href="tel:+358 40 4181023">+358 40 4181023</a>
+            <li><a href="mailto:jylha.racing@gmail.com">jylha.racing@gmail.com</a></li>
+          </ul>
+        </div>
+
+        &copy; Jylhä Racing 2021 
+        <div id="linkit">
+        <p><strong>Seuraa meitä somessa alla olevista kuvakkeista </strong></p>
+        <a href="https://www.facebook.com/Jylh%C3%A4-Racing-109147131317857" style="margin-right: 20px;">
+          <img src="images/fb.png"></a>
+        <a href="https://www.instagram.com/jylharacing/">
+          <img src="images/ig.png"></a>
+        </div>
+       
+        
+        <div id="lokaatio">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114914.42259243337!2d24.28750273647994!3d63.25439264272639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468693bee058e281%3A0xea4cf2d262e32d0a!2sPerho!5e0!3m2!1sfi!2sfi!4v1620300708046!5m2!1sfi!2sfi"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+  <script type="text/javascript" src="js/fullpage.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#sivusto').fullpage({
+        autoScrolling: true,
+        scrollHorizontally: true,
+        navigation: true
+      });
+    });
+  </script>
+</body>
+
+</html>
