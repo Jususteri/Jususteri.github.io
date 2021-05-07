@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fp-nav.fp-right {
+    right: 17px;
+}
+
+#fp-nav.fp-right ul li a span, .fp-slidesNav ul li a span {
+    background: #fff;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    max-height: 100%;
+    overflow: auto;
+    padding-right: 15px;
+}
+
+.slide {
+    font-size: 40px;
+}
+
+#etusivu h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+
+#etusivu p {
+    font-size: 20px;
+}
+
+#lokaatio, #somet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 70px;
+    align-items: flex-end;
+}
+
+#somet a {
+    color: #fff;
+}
+
+#somet ul li {
+    display: block;
+}
+
+#somet h1 {
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+
+#somet p {
+    font-size: 20px;
+}
