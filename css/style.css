@@ -105,21 +105,21 @@ body {
         font-size: 120px;
     }
     #etusivu p {
-        font-size: 40px;
+        font-size: 33px;
     }
     #tapahtumat h1 {
-        font-size: 100px;
+        font-size: 120px;
     }
     #tapahtumat p {
-        font-size: 40px;
+        font-size: 33px;
     }
     #yhteystiedot p {
-        font-size: 40px;
+        font-size: 33px;
     }
     #yhteystiedot h1 {
-        font-size: 110px;
+        font-size: 120px;
     }
     #yhteydtiedot a {
-        font-size: 40px;
+        font-size: 33px;
     }
 }
