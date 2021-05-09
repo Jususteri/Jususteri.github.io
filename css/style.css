@@ -14,10 +14,13 @@ body {
     background-size: cover;
 }
 
-.koneharju {
-    padding-top: 0.5em;
-    padding-bottom: 0.7em; 
-} 
+.sponsorit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4em;
+}
 
 
 #fp-nav.fp-right {
@@ -92,4 +95,31 @@ body {
 }
 #tapahtumat p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #fp-nav.fp-right {
+        right: 30px;
+    }
+    #etusivu h1 {
+        font-size: 120px;
+    }
+    #etusivu p {
+        font-size: 40px;
+    }
+    #tapahtumat h1 {
+        font-size: 100px;
+    }
+    #tapahtumat p {
+        font-size: 40px;
+    }
+    #yhteystiedot p {
+        font-size: 40px;
+    }
+    #yhteystiedot h1 {
+        font-size: 110px;
+    }
+    #yhteydtiedot a {
+        font-size: 40px;
+    }
 }
