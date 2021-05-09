@@ -99,7 +99,7 @@ body {
 
 @media screen and (max-device-width:640px), screen and (max-width:640px) {
     #fp-nav.fp-right {
-        right: 50px;
+        font-size: 40px;
     }
     #etusivu h1 {
         font-size: 120px;
