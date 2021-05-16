@@ -166,9 +166,9 @@ body {
     padding-right: 15px;
 }
 .slide {
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: auto;
+   background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: contain;
 }
 
 #etusivu h1 {
