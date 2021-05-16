@@ -175,6 +175,11 @@ body {
 .slide {
     font-size: 40px;
 }
+.slide {
+    background-position: 100%;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
 
 #etusivu h1 {
     font-family: 'Russo One', sans-serif;
