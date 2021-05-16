@@ -165,14 +165,11 @@ body {
     overflow: auto;
     padding-right: 15px;
 }
-
-.slide {
-    font-size: 40px;
-}
 .slide {
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: auto;
+    background-attachment: fixed;
 }
 
 #etusivu h1 {
