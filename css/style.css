@@ -167,9 +167,9 @@ body {
 }
 
 .slide img {
-    height: auto;
-    width: auto;
-    position: fixed;
+    
+    max-width: 100%;
+    max-height: 100%
 }
 
 .slide {
