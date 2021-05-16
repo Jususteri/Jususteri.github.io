@@ -12,7 +12,7 @@
     -webkit-transform: translate3d(0,-50%,0);
 }
 #fp-nav.fp-right {
-    right: 37px;
+    right: 17px;
 }
 #fp-nav.fp-left {
     left: 17px;
@@ -88,8 +88,8 @@
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin: -5px 0px 0px -5px;
 }
 #fp-nav ul li .fp-tooltip {
