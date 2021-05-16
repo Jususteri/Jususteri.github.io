@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    background:transparent
 }
 #fp-nav {
     position: fixed;
@@ -173,7 +172,10 @@ body {
 .slide {
     background-repeat: no-repeat; 
     background-position: center; 
-    background-size: auto;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 #etusivu h1 {
