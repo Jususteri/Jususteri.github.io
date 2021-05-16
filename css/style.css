@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background:transparent
 }
 #fp-nav {
     position: fixed;
@@ -164,12 +165,6 @@ body {
     max-height: 100%;
     overflow: auto;
     padding-right: 15px;
-}
-
-.slide img {
-    
-    max-width: 100%;
-    max-height: 100%
 }
 
 .slide {
