@@ -282,10 +282,6 @@ body {
     padding-right: 8px;
 }
 
-.section4 {
-overflow-y: auto;
-} 
-
 @media screen and (max-device-width:600px), screen and (max-width:600px) {
     #fp-nav.fp-right {
         font-size: 40px;
