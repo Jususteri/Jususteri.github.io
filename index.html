@@ -140,7 +140,24 @@
       $('#sivusto').fullpage({
         autoScrolling: true,
         scrollHorizontally: true,
-        navigation: true
+        navigation: true, 
+         scrollOverflow:true,
+    scrollOverflowOptions: {
+        probeType: 3
+    },
+    afterLoad: function(anchorLink, index){
+       var iscroll = $('.fp-section.active').find('.fp-scrollable').data('iscrollInstance');
+
+       if(iscroll && typeof iscroll !== undefined){
+            iscroll.on('scroll', getScroll);
+       }
+    }
+});
+
+function getScroll(){
+   console.log(this.y);
+   $('#position').text(this.y);
+}
       });
     });
   </script>
