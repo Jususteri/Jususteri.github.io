@@ -218,7 +218,7 @@ body {
 }
 
 .event-container h3.year {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     border-bottom: 1px solid #b1b1b1;
 }
@@ -247,10 +247,12 @@ body {
     font-size: 56px;
 }
 
-.event .event-left .month {
-    font-size: 16px;
+.event .event-left .month, .event-date{
+    font-size: 30px;
     font-weight: normal;
 }
+
+
 
 .event .event-right {
     display: flex;
@@ -260,7 +262,7 @@ body {
 }
 
 .event .event-right h3.event-title {
-    font-size: 24px;
+    font-size: 27px;
     margin: 24px 0 10px 0;
     text-transform: uppercase;
 }
@@ -278,9 +280,15 @@ body {
 }
 
 .event .event-right .event-timing img {
-    height: 20px;
-    padding-right: 8px;
+    height: 30px;
+    padding-right: 8px; 
+    font-size: 20px;
 }
+
+.event-description{
+    font-size: 20px;
+}
+
 
 @media screen and (max-device-width:600px), screen and (max-width:600px) {
     #fp-nav.fp-right {
