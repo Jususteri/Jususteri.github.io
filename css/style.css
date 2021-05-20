@@ -289,6 +289,13 @@ body {
     font-size: 17px;
 }
 
+footer a {
+
+color: #fff;
+font-size: 14px; 
+
+} 
+
 
 @media screen and (max-device-width:600px), screen and (max-width:600px) {
     #fp-nav.fp-right {
