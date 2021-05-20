@@ -289,12 +289,16 @@ body {
     font-size: 17px;
 }
 
-footer a p {
+footer p {
 
 color: #fff;
-font-size: 16px; 
+font-size: 10px; 
 padding-bottom: 0.3em;
 
+} 
+
+footer a {
+color: #fff;
 } 
 
 
