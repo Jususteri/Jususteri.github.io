@@ -85,6 +85,10 @@ screen and (max-width:800px) {
     .gallery {
         width: 30rem;
     }
+    .gallery img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-device-width:600px),
