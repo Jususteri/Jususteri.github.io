@@ -67,9 +67,9 @@ footer {
     color: white;
 }
 
-.contact-top h1 {
+.contact-top {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .contact-middle {
@@ -121,5 +121,8 @@ screen and (max-width:400px) {
     }
     .contact-middle {
         width: 250px;
+    }
+    .contact-top h1 {
+        font-size: 1.5rem;
     }
 }
