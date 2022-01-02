@@ -105,6 +105,37 @@
     </footer>
     <!--script-->
     <script>
+        window.formbutton = window.formbutton || function() {
+            (formbutton.q = formbutton.q || []).push(arguments)
+        };
+        formbutton("create", {
+            action: "https://formspree.io/f/mqknadan",
+            title: "Voimmeko jotenkin auttaa?",
+            fields: [{
+                type: "email",
+                label: "Sähköposti:",
+                name: "email",
+                required: true,
+                placeholder: "your@email.com"
+            }, {
+                type: "textarea",
+                label: "Viesti:",
+                name: "message",
+                placeholder: "Mitä mielessä?",
+            }, {
+                type: "submit"
+            }],
+            styles: {
+                title: {
+                    backgroundColor: "gray"
+                },
+                button: {
+                    backgroundColor: "gray"
+                }
+            }
+        });
+    </script>
+    <script>
         $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
             var src = $(this).attr('src');
             var modal;
