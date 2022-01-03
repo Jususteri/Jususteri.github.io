@@ -3,16 +3,17 @@
 
 <head>
     <title>Jylhä Racing</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PSFSZTMEY8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSFSZTMEY8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-PSFSZTMEY8');
-</script>
-     <!--
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-PSFSZTMEY8');
+    </script>
+    <!--
    <PageMap>
      <DataObject type="thumbnail">
        <Attribute name="src" value="https://github.com/Jususteri/Jususteri.github.io/blob/main/images/auto_256x256.jpg?raw=true""/>
@@ -23,15 +24,15 @@
  -->
     <meta name="thumbnail" content="https://github.com/Jususteri/Jususteri.github.io/blob/main/images/auto_256x256.jpg?raw=true" />
     <meta property="og:image" itemprop="image" content="https://github.com/Jususteri/Jususteri.github.io/blob/main/images/auto_256x256.jpg?raw=true" />
-    <meta name="msapplication-TileImage" content="https://github.com/Jususteri/Jususteri.github.io/blob/main/images/auto_256x256.jpg?raw=true"/> 
-    <meta property="og:site_name" content="Jylhä Racing"/>
-    <meta property="og:title" content="Jylhä Racing"/>
-    <meta property="og:description" content="Moottoriurheilua Perhosta"/>
+    <meta name="msapplication-TileImage" content="https://github.com/Jususteri/Jususteri.github.io/blob/main/images/auto_256x256.jpg?raw=true" />
+    <meta property="og:site_name" content="Jylhä Racing" />
+    <meta property="og:title" content="Jylhä Racing" />
+    <meta property="og:description" content="Moottoriurheilua Perhosta" />
     <meta property="og:type" content="website" />
-    <meta property="og:image:type" content="image/jpeg"/>
-    <meta property="og:image:width" content="256"/>
-    <meta property="og:image:height" content="256"/>
-    <meta property="og:url" content="https://www.jylharacing.fi"/>
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="256" />
+    <meta property="og:image:height" content="256" />
+    <meta property="og:url" content="https://www.jylharacing.fi" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="moottori, urheilu, moottoriurheilu, Motorsport, Racing, jokkis, Jylhä, moottoripyörä, auto, rata, 
@@ -42,41 +43,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <!--Chat Plugin Code-->
+    <!--Chat Plugin Code-->
     <div id="fb-root"></div>
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "109147131317857");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/fi_FI/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    
     <!--navbar-->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
@@ -128,35 +104,7 @@
     <footer>
         <div>&copy; Jylhä Racing 2021</div>
     </footer>
-    <script>
-        $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
-            var src = $(this).attr('src');
-            var modal;
-
-            function removeModal() {
-                modal.remove();
-                $('body').off('keyup.modal-close');
-            }
-            modal = $('<div>').css({
-                background: 'RGBA(0,0,0,.5) url(' + src + ') no-repeat center',
-                backgroundSize: 'contain',
-                width: '100%',
-                height: '100%',
-                position: 'fixed',
-                zIndex: '10000',
-                top: '0',
-                left: '0',
-                cursor: 'zoom-out'
-            }).click(function() {
-                removeModal();
-            }).appendTo('body');
-            $('body').on('keyup.modal-close', function(e) {
-                if (e.key === 'Escape') {
-                    removeModal();
-                }
-            });
-        });
-    </script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
