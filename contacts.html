@@ -26,7 +26,6 @@
     <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -86,38 +85,6 @@
     </div>
     </div>
     </div>
- <!--scriptit-->
-    <script>
-        window.formbutton = window.formbutton || function() {
-            (formbutton.q = formbutton.q || []).push(arguments)
-        };
-        formbutton("create", {
-            action: "https://formspree.io/f/mqknadan",
-            title: "Voimmeko jotenkin auttaa?",
-            fields: [{
-                type: "email",
-                label: "Sähköposti:",
-                name: "email",
-                required: true,
-                placeholder: "your@email.com"
-            }, {
-                type: "textarea",
-                label: "Viesti:",
-                name: "message",
-                placeholder: "Mitä mielessä?",
-            }, {
-                type: "submit"
-            }],
-            styles: {
-                title: {
-                    backgroundColor: "gray"
-                },
-                button: {
-                    backgroundColor: "gray"
-                }
-            }
-        });
-    </script>
-</body>
+ </body>
 
 </html>
