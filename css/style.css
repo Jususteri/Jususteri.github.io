@@ -7,8 +7,7 @@
 }
 
 body {
-    background: rgb(25, 57, 75);
-    background: linear-gradient(120deg, rgba(25, 57, 75, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 75%, rgba(25, 57, 75, 1) 100%);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
 }
 
 p,
