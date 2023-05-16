@@ -191,12 +191,6 @@
 
     }
 
-@media screen and (max-device-width:420px),
 
-    screen and (max-width:420px) {
-        
-        .card {
-           margin-left: 10px;
-           margin-right: 10px;
-          } 
-       } 
+
+
