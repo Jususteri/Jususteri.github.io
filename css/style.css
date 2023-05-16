@@ -188,4 +188,8 @@
         .contact-top h1 {
             font-size: 1.5rem;
         }
+       .card {
+           margin-left: 10px;
+           margin-right: 10px;
+          } 
     }
