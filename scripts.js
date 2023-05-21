@@ -10,7 +10,7 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
     modal = $('<div>').css({
         background: 'RGBA(0,0,0,.5) url(' + src + ') no-repeat center',
         backgroundSize: 'contain',
-        loading: "lazy",
+        loading: 'lazy',
         width: '100%',
         height: '100%',
         position: 'fixed',
