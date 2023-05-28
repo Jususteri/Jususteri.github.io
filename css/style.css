@@ -1,0 +1,196 @@
+    @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+    * {
+        text-align: center !important;
+        margin: auto !important;
+    }
+    
+    body {
+        background: linear-gradient(to bottom, #29323c, #1c262b);
+        min-height: 100vh;
+    }
+    
+    p,
+    h1 {
+        color: white;
+    }
+    
+    h1 {
+        font-family: 'Michroma', sans-serif;
+        padding: 35px;
+    }
+    
+    .sponsors {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navbarbuttons {
+        display: flex;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 40rem;
+        padding-top: 2rem;
+    }
+    
+    .gallery img {
+        width: 200px;
+        height: 200px;
+        cursor: zoom-in;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    
+    .gallery img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 153, 255, 0.945);
+    }
+    
+    footer {
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-family: 'Marck Script', cursive;
+    }
+    
+    .cards-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 40px 0;
+    }
+    
+    .card {
+        width: 400px;
+        height: 400px;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .card-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-img img {
+        max-width: 100%;
+        max-height: 100%;
+        background: linear-gradient(to bottom, #606974, #29353d);
+    }
+    
+    .card-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    .contact-top a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contact-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-bottom iframe {
+        filter: grayscale(100%);
+    }
+    
+    .contact-middle {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 400px;
+    }
+    
+    @media screen and (max-device-width:800px),
+    screen and (max-width:800px) {
+        .gallery {
+            width: 30rem;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    @media screen and (max-device-width:950px),
+    screen and (max-width:950px) {
+        .sponsors {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+
+    
+    @media screen and (max-device-width:500px),
+    screen and (max-width:500px) {
+        .gallery {
+            width: 20rem;
+        }
+        .sponsors {
+            padding-top: 3rem;
+        }
+        .sponsors img {
+            width: 230px;
+        }
+    }
+    
+    @media screen and (max-device-width:400px),
+    screen and (max-width:400px) {
+        .navbarbuttons {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .navbarbuttons img {
+            padding-top: 15px;
+        }
+        .contact-middle {
+            width: 250px;
+        }
+        .contact-top h1 {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media screen and (max-device-width:420px),
+    screen and (max-width:420px) {
+        .cards-container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
